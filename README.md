@@ -1,5 +1,5 @@
 # AugmentedSSD
-Augmented Reality App for SSD exam
+Augmented Reality App for SSD exam.
 
 ## How To
 To build the application run:
