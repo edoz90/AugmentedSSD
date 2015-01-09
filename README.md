@@ -10,7 +10,7 @@ or
 To run the application run:
 <pre><code>cordova run android</code></pre>
 or
-<pre><code>phonega run android</code></pre>
+<pre><code>phonegap run android</code></pre>
 This command looks for connected device, to run the application directly on the emulator (it will not works on it):
 <pre><code>phonegap run android -e</code></pre>
 or the command with "cordova".
