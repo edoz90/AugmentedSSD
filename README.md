@@ -17,3 +17,6 @@ or the command with "cordova".
 
 The apk is in:
 <pre><code>platforms/android/ant-build/CordovaApp-debug.apk (~10MB)</code></pre>
+
+### Info
+Course site: http://www3.csr.unibo.it/~maniezzo/didattica/DSS/SistSuppDec.html
