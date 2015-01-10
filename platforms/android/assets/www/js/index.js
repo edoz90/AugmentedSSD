@@ -32,11 +32,11 @@ var app = {
         alert('Unable to launch ARchitect Worlds on this device');
     },
     // Use this method to load a specific ARchitect World from either the local file system or a remote server
-    loadARchitectWorld: function(samplePath) {
+    loadARchitectWorld: function(path) {
         app.wikitudePlugin.setOnUrlInvokeCallback(app.onUrlInvoke);
 
         if (app.isDeviceSupported) {
-            app.wikitudePlugin.loadARchitectWorld(samplePath);
+            app.wikitudePlugin.loadARchitectWorld(path);
         } else {
             alert("Device is not supported");
         }

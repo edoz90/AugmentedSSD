@@ -21,11 +21,6 @@ function Marker(poiData) {
     this.markerDrawable_idle = new AR.ImageDrawable(World.markerDrawable_idle, 2.5, {
         zOrder: 0,
         opacity: 1.0,
-        /* To react on user interaction, an onClick property can be set for each AR.Drawable.
-            The property is a function which will be called each time the user taps on the drawable.
-            The function called on each tap is returned from the following helper function defined in marker.js.
-            The function returns a function which checks the selected state with the help of the variable isSelected and
-            executes the appropriate function. The clicked marker is passed as an argument. */
         onClick: Marker.prototype.getOnClickTrigger(this)
     });
 
@@ -98,7 +93,6 @@ function Marker(poiData) {
 Marker.prototype.getOnClickTrigger = function(marker) {
     /* The setSelected and setDeselected functions are prototype Marker functions.
         Both functions perform the same steps but inverted. */
-
     return function() {
         if (!Marker.prototype.isAnyAnimationRunning(marker)) {
             if (marker.isSelected) {
@@ -217,7 +211,7 @@ Marker.prototype.isAnyAnimationRunning = function(marker) {
     }
 };
 
-// will truncate all strings longer than given max-length "n". e.g. "foobar".trunc(3) -> "foo..."
+// will truncate all strings longer than given max-length "n"
 String.prototype.trunc = function(n) {
     return this.substr(0, n - 1) + (this.length > n ? '...' : '');
 };
