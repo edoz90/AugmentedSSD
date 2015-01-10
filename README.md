@@ -2,9 +2,7 @@
 Augmented Reality App for SSD exam.
 The application reads the information from the .sqlite through the class GAPServer opening a WebSocket but for convenience POIs are stored in a JSON string.
 <pre><code>www/world/POIandRadar/js/addingRadar.js</code></pre> contains the functions to load the POIs from the .sqlite.
-
-
-
+<br/>
 ## How To
 To build the application run:
 <pre><code>cordova build</code></pre>
