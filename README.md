@@ -25,6 +25,6 @@ The application reads the information from the .sqlite through the class GAPServ
 
 In the same document:
 <pre><code>AR.context.scene.cullingDistance = 200000;</code></pre>
-force drawing the POIs on the rader even if they are far away from the user location.
+force drawing the POIs on the rader even if they are far away from the user location (default 50000).
 
 Course site: http://www3.csr.unibo.it/~maniezzo/didattica/DSS/SistSuppDec.html
