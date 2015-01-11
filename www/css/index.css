@@ -4,39 +4,55 @@
 
 body {
     -webkit-text-size-adjust: none;
-    background-color: #E4E4E4;
-    background-image: linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
-    background-image: -webkit-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
-    background-image: -ms-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
-    background-image: -webkit-gradient(
-        linear,
-        left top,
-        left bottom,
-        color-stop(0, #A7A7A7),
-        color-stop(0.51, #E4E4E4)
-    );
-    background-attachment: fixed;
     font-family: "Droid Sans", sans-serif;
     font-size: 12px;
     height: 100%;
     margin: 0px;
     padding: 0px;
     width: 100%;
+    background-color: #757575;
 }
 
-@keyframes fade {
-    from { opacity: 1.0; }
-    50% { opacity: 0.4; }
-    to { opacity: 1.0; }
+#header-status h2 {
+	margin: 0;
+	line-height: 40px;
+	width: 100%;
+	text-align: center;
+	background-color: #f44336;
+	border-bottom: 2px solid white;
+	color: white;
 }
 
-@-webkit-keyframes fade {
-    from { opacity: 1.0; }
-    50% { opacity: 0.4; }
-    to { opacity: 1.0; }
+ul {
+	list-style: none;
+	background-color: #f44336;
+	display: block;
+	padding-left: 15px;
 }
 
-.blink {
-    animation:fade 3000ms infinite;
-    -webkit-animation:fade 3000ms infinite;
+ul li {
+	background-color: #4B77BE;
+	padding-left: 10px;
+	border-left: 2px solid white;
+	display: block;
+	height: 40px;
+}
+
+.bor {
+	border-top: 1px solid white;
+}
+
+ul li a {
+	padding-top: 5px;
+	display: block;
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-weight: bolder;
+	line-height: 33px;
+	width: 100%;
+}
+
+ul li a:active {
+	opacity: 0.3;
 }
