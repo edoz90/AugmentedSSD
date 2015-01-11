@@ -126,17 +126,17 @@
 				function showError(error) {
 					switch(error.code) {
 						case error.PERMISSION_DENIED:
-							x.innerHTML="Permesso negato."
-							break;
+						x.innerHTML="Permesso negato."
+						break;
 						case error.POSITION_UNAVAILABLE:
-							x.innerHTML="position unavailable."
-							break;
+						x.innerHTML="position unavailable."
+						break;
 						case error.TIMEOUT:
-							x.innerHTML="Richiesta in timeout."
-							break;
+						x.innerHTML="Richiesta in timeout."
+						break;
 						case error.UNKNOWN_ERROR:
-							x.innerHTML="Errore sconosciuto."
-							break;
+						x.innerHTML="Errore sconosciuto."
+						break;
 					}
 				}
 				function getClients() {
@@ -146,23 +146,23 @@
 						ws = new WebSocket('ws://192.168.1.246:8100');
 						server.innerHTML="Connecting ...";
 						server.style.backgroundColor = "#2ecc71";
-						ws.onopen = function ()
-						{   // Send data
+						ws.onopen = function()
+						{
 							ws.send("0");
 						};
-						ws.onmessage = function (evt)
+						ws.onmessage = function(evt)
 						{
 							var receivedmsg = evt.data;
 							var punti = receivedmsg.split(",");
 							showMap(punti);
 							server.innerHTML="Receiving";
 						};
-						ws.onclose = function ()
+						ws.onclose = function()
 						{
 							server.innerHTML="Disconnesso";
 							connected = false;
 						};
-						ws.onerror = function (evt)
+						ws.onerror = function(evt)
 						{
 							connected = false;
 							server.innerHTML="Errore";
@@ -172,11 +172,11 @@
 				function getSolution() {
 					if ("WebSocket" in window) {
 						ws.send(1);
-						ws.onmessage = function (evt)
+						ws.onmessage = function(evt)
 						{
-								var receivedmsg = evt.data;
-								var punti = receivedmsg.split(",");
-								showLines(punti);
+							var receivedmsg = evt.data;
+							var punti = receivedmsg.split(",");
+							showLines(punti);
 						};
 					}
 				}
