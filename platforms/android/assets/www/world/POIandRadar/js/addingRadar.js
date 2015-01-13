@@ -121,7 +121,7 @@ var World = {
         // set helper var to avoid requesting places while loading
         World.isRequestingData = true;
         World.updateStatusMessage('Requesting places from web-service');
-        /*ws = new WebSocket('ws://192.168.1.246:8100');
+        /*ws = new WebSocket('ws://192.168.43.190:8100');
 		var connected = false;
 		ws.onopen = function() { ws.send("0"); };
 		ws.onmessage = function(evt) {

@@ -70,10 +70,8 @@
 /home/edoardo/Desktop/AugmentedSSD/platforms/android/assets/www/world/POIandRadar/assets/radar_bg.png \
 /home/edoardo/Desktop/AugmentedSSD/platforms/android/assets/www/world/POIandRadar/assets/selected.png \
 /home/edoardo/Desktop/AugmentedSSD/platforms/android/assets/www/css/index.css \
-/home/edoardo/Desktop/AugmentedSSD/platforms/android/assets/www/css/jquery.mobile.structure-1.3.2.min.css \
 /home/edoardo/Desktop/AugmentedSSD/platforms/android/assets/www/js/index.js \
 /home/edoardo/Desktop/AugmentedSSD/platforms/android/assets/www/jquery/images \
-/home/edoardo/Desktop/AugmentedSSD/platforms/android/assets/www/jquery/jquery.mobile-1.3.2.min.css \
 /home/edoardo/Desktop/AugmentedSSD/platforms/android/assets/www/jquery/jquery.mobile-1.3.2.min.js \
 /home/edoardo/Desktop/AugmentedSSD/platforms/android/assets/www/jquery/jquery-1.9.1.min.js \
 /home/edoardo/Desktop/AugmentedSSD/platforms/android/assets/www/jquery/images/ajax-loader.gif \
