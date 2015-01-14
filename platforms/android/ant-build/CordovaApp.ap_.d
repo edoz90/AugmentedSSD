@@ -38,7 +38,6 @@
 /home/edoardo/Desktop/AugmentedSSD/platforms/android/assets/www/index.html \
 /home/edoardo/Desktop/AugmentedSSD/platforms/android/assets/www/js \
 /home/edoardo/Desktop/AugmentedSSD/platforms/android/assets/www/cordova.js \
-/home/edoardo/Desktop/AugmentedSSD/platforms/android/assets/www/jquery \
 /home/edoardo/Desktop/AugmentedSSD/platforms/android/assets/www/cordova_plugins.js \
 /home/edoardo/Desktop/AugmentedSSD/platforms/android/assets/www/plugins \
 /home/edoardo/Desktop/AugmentedSSD/platforms/android/assets/www/img \
@@ -71,14 +70,6 @@
 /home/edoardo/Desktop/AugmentedSSD/platforms/android/assets/www/world/POIandRadar/assets/selected.png \
 /home/edoardo/Desktop/AugmentedSSD/platforms/android/assets/www/css/index.css \
 /home/edoardo/Desktop/AugmentedSSD/platforms/android/assets/www/js/index.js \
-/home/edoardo/Desktop/AugmentedSSD/platforms/android/assets/www/jquery/imagesp \
-/home/edoardo/Desktop/AugmentedSSD/platforms/android/assets/www/jquery/jquery.mobile-1.3.2.min.js \
-/home/edoardo/Desktop/AugmentedSSD/platforms/android/assets/www/jquery/jquery-1.9.1.min.js \
-/home/edoardo/Desktop/AugmentedSSD/platforms/android/assets/www/jquery/imagesp/ajax-loader.gif \
-/home/edoardo/Desktop/AugmentedSSD/platforms/android/assets/www/jquery/imagesp/icons-36-white.png \
-/home/edoardo/Desktop/AugmentedSSD/platforms/android/assets/www/jquery/imagesp/icons-18-white.png \
-/home/edoardo/Desktop/AugmentedSSD/platforms/android/assets/www/jquery/imagesp/icons-18-black.png \
-/home/edoardo/Desktop/AugmentedSSD/platforms/android/assets/www/jquery/imagesp/icons-36-black.png \
 /home/edoardo/Desktop/AugmentedSSD/platforms/android/assets/www/plugins/com.wikitude.phonegap.WikitudePlugin \
 /home/edoardo/Desktop/AugmentedSSD/platforms/android/assets/www/plugins/com.wikitude.phonegap.WikitudePlugin/www \
 /home/edoardo/Desktop/AugmentedSSD/platforms/android/assets/www/plugins/com.wikitude.phonegap.WikitudePlugin/www/WikitudePlugin.js \
