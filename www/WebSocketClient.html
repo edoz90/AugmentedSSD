@@ -8,7 +8,7 @@
 		<style type="text/css" media="screen">
 			body {
 				font-family: "Droid Sans",sans-serif;
-				font-size: 14px;
+				font-size: 12px;
 				background-color: #22313F;
 			}
 			header, header h2 {
@@ -21,10 +21,11 @@
 			.flat-button {
 				position: relative;
 				vertical-align: top;
-				width: 100%;
-				height: 30px;
+				width: 150px;
+				height: 20px;
+				margin: 5px;
 				padding: 0px;
-				font-size: 22px;
+				font-size: 15px;
 				color: white;
 				text-align: center;
 				text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
@@ -56,12 +57,11 @@
 			<header>
 				<h2>Sistemi di Supporto alle Decisioni 2014 GAP</h2>
 			</header>
-				<!--<p id="demo">Click per connettersi e scaricare la mappa</p>-->
 				<div id="server">Non connesso al server</div>
-				<button onclick="getClients()" style="width:200px" class="flat-button">Connect</button>
-				<button onclick="getSolution()"  style="width:200px" id="getSoluzione" disabled="disabled" class="flat-button">Soluzione</button>
+				<button onclick="getClients()" class="flat-button">Connect</button>
+				<button onclick="getSolution()" id="getSoluzione" disabled="disabled" class="flat-button">Soluzione</button>
 		</div>
-			<center><div id="mapView" style="width:500px;height:380px;"></div></center>
+			<center><div id="mapView"></div></center>
 			<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&libraries=geometry"></script>
 			<script type="text/javascript">
 				var ws;
@@ -71,11 +71,13 @@
 				var markersMag = new Array();
 				var server;
 				function showMap(punti) {
+					document.getElementById("mapView").style.width = (window.innerWidth - 30) + "px";
+					document.getElementById("mapView").style.height = (window.innerHeight - 30) + "px";
 					var latlng = new google.maps.LatLng(44.14,12.245);
-					var x=document.getElementById("demo");
+					var x=document.getElementById("server");
 					var myOptions =
 					{
-						zoom: 14,
+						zoom: 13,
 						center: latlng,
 						mapTypeControl: false,
 						navigationControlOptions: { style: google.maps.NavigationControlStyle.SMALL },
