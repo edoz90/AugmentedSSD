@@ -11,7 +11,7 @@ To run the application run:
 <pre><code>cordova run android</code></pre>
 or
 <pre><code>phonegap run android</code></pre>
-This command looks for connected device, to run the application directly on the emulator (it will not works on it):
+This command looks for a connected Android device, to run the application directly on the emulator (it will not works on it):
 <pre><code>phonegap run android -e</code></pre>
 or the command with "cordova".
 
@@ -25,6 +25,6 @@ The application reads the information from the .sqlite through the class GAPServ
 
 In the same document:
 <pre><code>AR.context.scene.cullingDistance = 200000;</code></pre>
-force drawing the POIs on the rader even if they are far away from the user location (default 50000).
+force drawing the POIs on the radar even if they are far away from the user location (default 50000).
 
 Course site: http://www3.csr.unibo.it/~maniezzo/didattica/DSS/SistSuppDec.html
